@@ -1,0 +1,141 @@
+#!/bin/bash
+
+Input="$@"
+
+mkdir -p ./$Input
+
+cd ./scalable
+
+for i in $(ls ./); do
+
+mkdir -p ../$Input/$i
+
+done
+
+for i in $(ls ./emotes | grep -v "@"); do
+
+convert "./emotes/$i" -scale $Input'!' "$HOME/GitTrees/TheBlueStandard/TheBlueStandard/$Input/emotes/$i"
+
+done
+
+for i in $(ls ./emotes | grep "@"); do
+
+cp -a "./emotes/$i" "$HOME/GitTrees/TheBlueStandard/TheBlueStandard/$Input/emotes/$i"
+
+done
+
+
+for i in $(ls ./mimetypes | grep -v "@"); do
+
+convert "./mimetypes/$i" -scale $Input'!' "$HOME/GitTrees/TheBlueStandard/TheBlueStandard/$Input/mimetypes/$i"
+
+done
+
+for i in $(ls ./mimetypes | grep "@"); do
+
+cp -a "./mimetypes/$i" "$HOME/GitTrees/TheBlueStandard/TheBlueStandard/$Input/mimetypes/$i"
+
+done
+
+for i in $(ls ./stock | grep -v "@"); do
+
+convert "./stock/$i" -scale $Input'!' "$HOME/GitTrees/TheBlueStandard/TheBlueStandard/$Input/stock/$i"
+
+done
+
+for i in $(ls ./stock | grep "@"); do
+
+cp -a "./stock/$i" "$HOME/GitTrees/TheBlueStandard/TheBlueStandard/$Input/stock/$i"
+
+done
+
+for i in $(ls ./actions | grep -v "@"); do
+
+convert "./actions/$i" -scale $Input'!' "$HOME/GitTrees/TheBlueStandard/TheBlueStandard/$Input/actions/$i"
+
+done
+
+for i in $(ls ./actions | grep "@"); do
+
+cp -a "./actions/$i" "$HOME/GitTrees/TheBlueStandard/TheBlueStandard/$Input/actions/$i"
+
+done
+
+for i in $(ls ./emblems | grep -v "@"); do
+
+convert "./emblems/$i" -scale $Input'!' "$HOME/GitTrees/TheBlueStandard/TheBlueStandard/$Input/emblems/$i"
+
+done
+
+for i in $(ls ./emblems | grep "@"); do
+
+cp -a "./emblems/$i" "$HOME/GitTrees/TheBlueStandard/TheBlueStandard/$Input/emblems/$i"
+
+done
+
+for i in $(ls ./places | grep -v "@"); do
+
+convert "./places/$i" -scale $Input'!' "$HOME/GitTrees/TheBlueStandard/TheBlueStandard/$Input/places/$i"
+
+done
+
+for i in $(ls ./places | grep "@"); do
+
+cp -a "./places/$i" "$HOME/GitTrees/TheBlueStandard/TheBlueStandard/$Input/places/$i"
+
+done
+
+
+for i in $(ls ./categories | grep -v "@"); do
+
+convert "./categories/$i" -scale $Input'!' "$HOME/GitTrees/TheBlueStandard/TheBlueStandard/$Input/categories/$i"
+
+done
+
+
+for i in $(ls ./categories | grep "@"); do
+
+cp -a "./categories/$i" "$HOME/GitTrees/TheBlueStandard/TheBlueStandard/$Input/categories/$i"
+
+done
+
+for i in $(ls ./status | grep -v "@"); do
+
+convert "./status/$i" -scale $Input'!' "$HOME/GitTrees/TheBlueStandard/TheBlueStandard/$Input/status/$i"
+
+done
+
+for i in $(ls ./status | grep "@"); do
+
+cp -a "./status/$i" "$HOME/GitTrees/TheBlueStandard/TheBlueStandard/$Input/status/$i"
+
+done
+
+
+for i in $(ls ./apps | grep -v "@"); do
+
+convert "./apps/$i" -scale $Input'!' "$HOME/GitTrees/TheBlueStandard/TheBlueStandard/$Input/apps/$i"
+
+done
+
+for i in $(ls ./apps | grep "@"); do
+
+cp -a "./apps/$i" "$HOME/GitTrees/TheBlueStandard/TheBlueStandard/$Input/apps/$i"
+
+done
+
+for i in $(ls ./devices | grep -v "@"); do
+
+convert "./devices/$i" -scale $Input'!' "$HOME/GitTrees/TheBlueStandard/TheBlueStandard/$Input/devices/$i"
+
+done
+
+for i in $(ls ./devices | grep "@"); do
+
+cp -a "./devices/$i" "$HOME/GitTrees/TheBlueStandard/TheBlueStandard/$Input/devices/$i"
+
+done
+
+
+
+exit

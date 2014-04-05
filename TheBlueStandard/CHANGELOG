@@ -1,0 +1,71 @@
+commit d04bb3f21c4f471f795b9beed23c4e61d28e3e97
+Author: Anthony Nordquist <salinelinux@gmail.com>
+Date:   Wed Apr 2 06:17:03 2014 -0400
+
+    Finish changing archive icons, add missing xfburn icon
+
+commit 935f57b35bbad1e5cee42c00b4ef44f2291e2a0e
+Author: Anthony Nordquist <salinelinux@gmail.com>
+Date:   Tue Apr 1 13:50:24 2014 -0400
+
+    Minor tweaks and polishing, added new desktop icon and stock folder copy/mov
+
+commit b3d403d19fddb6f0f6519ca8e010ee4bff3b3cf7
+Author: Anthony Nordquist <salinelinux@gmail.com>
+Date:   Thu Nov 21 01:34:57 2013 -0500
+
+    Fix name in AUTHORS file, rename install to install.sh
+
+commit 6fb6c0369ef2fc0759ffc404cf713b3109117b2e
+Author: Anthony Nordquist <salinelinux@gmail.com>
+Date:   Wed Nov 20 21:46:11 2013 -0500
+
+    Add initial files
+
+commit 9083ad7aa27f7d41f6a5b05d5486d53abe7cd5c2
+Author: SalineOS <salinelinux@gmail.com>
+Date:   Wed Nov 20 18:20:13 2013 -0800
+
+    Initial commit
+
+commit 84c167c796ae7e446fdc07b64fc4d391064e800f
+Author: Anthony Nordquist <salinelinux@gmail.com>
+Date:   Wed Nov 20 18:32:15 2013 -0500
+
+    Ton of work
+
+commit 777016d6d1d7df84a40e41b4e4f81f60606db339
+Author: Anthony Nordquist <salinelinux@gmail.com>
+Date:   Thu Nov 8 13:28:14 2012 -0500
+
+    Properly scale games icon
+
+commit d2406e2c6bb53e1ad070d121a782bc29afe856b2
+Author: Anthony Nordquist <salinelinux@gmail.com>
+Date:   Sat Nov 3 14:15:36 2012 -0400
+
+    Bump version number
+
+commit 9dcaec3258a8a8ceaffcdb94b5bed8a2b8b01f89
+Author: Anthony Nordquist <salinelinux@gmail.com>
+Date:   Sat Nov 3 14:14:05 2012 -0400
+
+    Merge some icons from "Dreamer" theme, modify some icons by hand
+
+commit 756457de57eabbf3802d18842d4186a4104e26e3
+Author: Anthony Nordquist <salinelinux@gmail.com>
+Date:   Sat Sep 29 02:31:44 2012 -0400
+
+    Scale system-log-out.png to proper size
+
+commit aa1825203acc4f5cc66811c6eba5186191c89d71
+Author: Anthony <salinelinux@gmail.com>
+Date:   Wed Jun 27 10:02:41 2012 -0400
+
+    Add packaging files
+
+commit a9ab2a226895cd8e23164bdcd0a063d69c3bbf4b
+Author: Anthony Nordquist <salinelinux@gmail.com>
+Date:   Mon May 14 21:06:38 2012 -0400
+
+    Rename theme, modify copyright file as needed

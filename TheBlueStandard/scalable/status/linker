@@ -1,0 +1,11 @@
+#!/bin/bash
+
+Input="$1"
+
+LinkTo="$2"
+
+rm -f "$LinkTo"
+
+ln -s ./"$Input" ./"$LinkTo"
+
+exit
