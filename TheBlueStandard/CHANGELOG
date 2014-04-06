@@ -1,3 +1,27 @@
+commit c62072ff7b4cec613a8daed94cc317679fcfcd44
+Author: Anthony Nordquist <salinelinux@gmail.com>
+Date:   Sun Apr 6 08:27:29 2014 -0400
+
+    Add more symbolic links, mail icons and replace preferences-color
+
+commit 4f0bd5f9117d3cfdc18b957a1bebb27f2a8ae848
+Author: Anthony Nordquist <salinelinux@gmail.com>
+Date:   Sun Apr 6 08:27:23 2014 -0400
+
+    Add more symbolic links, mail icons and replace preferences-color
+
+commit b4e5476bdebb1c88880fc573ee6627fc79353391
+Author: Anthony Nordquist <salinelinux@gmail.com>
+Date:   Sat Apr 5 15:51:20 2014 -0400
+
+    Re-initialize the repository
+
+commit 11e06afee3be47e28b0ea10c53857a9b6536126e
+Author: SalineOS <salinelinux@gmail.com>
+Date:   Sat Apr 5 12:44:49 2014 -0700
+
+    Initial commit
+
 commit d04bb3f21c4f471f795b9beed23c4e61d28e3e97
 Author: Anthony Nordquist <salinelinux@gmail.com>
 Date:   Wed Apr 2 06:17:03 2014 -0400
